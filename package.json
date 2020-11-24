@@ -1,0 +1,31 @@
+{
+  "name": "codeeditor",
+  "version": "1.0.0",
+  "description": "Code editor that can handle html and css. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyflo/codeeditor.git"
+  },
+  "keywords": [
+    "Code",
+    "editor",
+    "code",
+    "mirror",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Amy Lo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyflo/codeeditor/issues"
+  },
+  "homepage": "https://github.com/amyflo/codeeditor#readme",
+  "dependencies": {
+    "codemirror": "^5.58.3"
+  }
+}
