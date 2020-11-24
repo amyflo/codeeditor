@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>
+            Code Editor
+        </title>
+        <!-- add meta tags here later so u dont forget -->
     </head>
     <body>
-        <script src="lib/codemirror.js"></script>
-        <link rel="stylesheet" href="lib/codemirror.css">
-        <script src="mode/javascript/javascript.js"></script>
-    </body>
+        <!--SCRIPTS-->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/javascript/javascript.min.js">
+        </script>
+        <script src="node_modules/codemirror/lib/codemirror.js"></script>
+        <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/xq-dark.min.css">
+    <div id="module1">
+    </div>
     <script>
-        var myCodeMirror = CodeMirror(document.body);
-        
+        var myCodeMirror = CodeMirror(document.getElementById("module1"), {
+        lineNumbers: true,
+        tabSize: 2,
+        value: 'console.log("Hello, World");',
+        mode: 'javascript',
+        theme: 'xq-dark'
+        });
     </script>
+    </body>
 </html>
