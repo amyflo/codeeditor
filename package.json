@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/amyflo/codeeditor#readme",
   "dependencies": {
-    "codemirror": "^5.58.3"
+    "codemirror": "^5.58.3",
+    "jquery": "^3.5.1",
+    "yarn": "^1.22.10"
   }
 }
